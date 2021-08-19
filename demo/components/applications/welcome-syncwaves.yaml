@@ -9,8 +9,8 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: apps/welcome-php/overlays/syncwaves
-    repoURL: https://github.com/redhat-developer-demos/openshift-gitops-examples
+    path: demo/apps/welcome-php/overlays/syncwaves
+    repoURL: https://github.com/rajiv-ranjan/gitops-demo.git
     targetRevision: main
   syncPolicy:
     automated:
